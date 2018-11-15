@@ -42,22 +42,17 @@ setTimeout(() => {
 
 setTimeout(() => {
   console.log('Question suivante !');
-  callback()
 }, 4000);
 
-function question2() {
-console.log('Question 2: Quelle équipe de football a remporté le plus de coupe du monde  ?\n')
-console.log('A) Tunisie (très peu probable) \n')
-console.log('B) Allemagne \n')
-console.log('C) Brésil\n')
-console.log('D) Italie \n')
-}
+
+
+
 
 
 });
 function start(){
 bonjour()
-questions1(question2)
+questions1()
 
 
 
